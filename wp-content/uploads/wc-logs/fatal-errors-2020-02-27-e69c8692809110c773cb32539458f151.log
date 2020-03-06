@@ -1,0 +1,2 @@
+2020-02-27T11:49:34+00:00 CRITICAL Out of memory (allocated 16777216) (tried to allocate 65536 bytes) in C:\xampp\htdocs\wpsport\wp-content\themes\Divi\core\components\api\email\Ontraport.php on line 311
+

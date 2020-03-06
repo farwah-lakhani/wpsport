@@ -1,0 +1,4 @@
+2020-02-29T05:19:15+00:00 CRITICAL Out of memory (allocated 14680064) (tried to allocate 131072 bytes) in C:\xampp\htdocs\wpsport\wp-content\themes\Divi\includes\builder\main-structure-elements.php on line 1864
+
+2020-02-29T05:19:37+00:00 CRITICAL Out of memory (allocated 8388608) (tried to allocate 32768 bytes) in C:\xampp\htdocs\wpsport\wp-content\themes\Divi\includes\builder\module\PricingTablesItem.php on line 185
+

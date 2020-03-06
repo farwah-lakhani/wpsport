@@ -1,0 +1,4 @@
+2020-03-03T11:46:21+00:00 CRITICAL Out of memory (allocated 23068672) (tried to allocate 4096 bytes) in C:\xampp\htdocs\wpsport\wp-content\themes\Divi\includes\builder\class-et-builder-element.php on line 803
+
+2020-03-03T12:57:54+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wpsport\wp-content\themes\Divi\core\components\data\init.php on line 228
+

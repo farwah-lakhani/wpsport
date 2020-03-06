@@ -1,0 +1,11 @@
+2020-03-05T12:07:37+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to WPSEO_Link_Watcher::save_post() must be an instance of WP_Post, null given, called in C:\xampp\htdocs\wpsport\wp-includes\class-wp-hook.php on line 290 and defined in C:\xampp\htdocs\wpsport\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php:47
+Stack trace:
+#0 C:\xampp\htdocs\wpsport\wp-includes\class-wp-hook.php(290): WPSEO_Link_Watcher->save_post(658, NULL)
+#1 C:\xampp\htdocs\wpsport\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wpsport\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wpsport\wp-includes\post.php(4120): do_action('save_post', 658, NULL, true)
+#4 C:\xampp\htdocs\wpsport\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 C:\xampp\htdocs\wpsport\wp-admin\includes\post.php(1838): wp_update_post(Array)
+#6 C:\xampp\htdocs\wpsport\wp-admin\includes\post.php(1949): wp_create_post_autosave(Array)
+#7 C:\xampp\htdocs\wpsport\wp-admin\includes\misc.php(1178): wp_autos in C:\xampp\htdocs\wpsport\wp-content\plugins\wordpress-seo\admin\links\class-link-watcher.php on line 47
+
